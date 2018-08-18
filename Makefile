@@ -9,10 +9,10 @@ DEBUG=-g
 OPT=-O0
 # warnings
 WARN=-Wall
- 
+
 PTHREAD=-pthread
  
-CCFLAGS=$(DEBUG) $(OPT) $(WARN) $(PTHREAD) -pipe
+CCFLAGS=$(DEBUG) $(OPT) $(WARN) $(PTHREAD) -pipe -mwindows
  
 GTKLIB=`pkg-config --cflags --libs gtk+-3.0`
  
